@@ -17,6 +17,7 @@
 body{
     display: flex;
     min-height: 100vh;
+    background-color: red;
 
 }
 
@@ -56,10 +57,9 @@ body{
     width: 100%;
     background-color: red;
     max-width: 80%;
-    height: 100vh;
     right: 0;
     position: absolute;
-    display: grid;
+    
 }
 
 .form{
@@ -93,6 +93,28 @@ body{
 }
 .form_portatiles{
     display: none;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card_empl{
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    padding: 10px;
+    margin: 10px ;
+    
+
+}
+#div_img{
+    margin: 10px auto;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
 
